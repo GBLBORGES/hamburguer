@@ -1,0 +1,49 @@
+@media screen and (max-width: 900px) {
+    .produtos {
+     display: flex;
+     flex-wrap: wrap;
+    }
+ }
+ 
+ * {
+     margin: 0;
+     border: 0;
+ }
+ 
+ body {
+    font-family: Roboto
+}
+
+a {
+    padding: 2%;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:hover {
+    color: black;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #c1652c;
+    height: 30%;
+}
+
+.logo img {
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;    
+}
+
+#products {
+    background-color: rgb(0, 0, 0);
+}
+
+.anchors  {
+   display: flex;
+   justify-content:flex-start;    
+}
