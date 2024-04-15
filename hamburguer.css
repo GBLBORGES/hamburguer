@@ -12,17 +12,17 @@
  
  body {
     font-family: Arial, sans-serif;
-    background-image: url('./src/tela\ de\ fundo.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-image: url('./src/tela\ de\ fundo.jpg'); 
     background-size: cover;
     color: #fff;
 }
-.container {
+.cont {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 .mission {
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente preto */
+    background-color: rgba(0, 0, 0, 0.7); 
     padding: 20px;
     border-radius: 10px;
 }
@@ -72,3 +72,29 @@ header {
    display: flex;
    justify-content:flex-start;    
 }
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    background-color: rgb(22, 22, 19);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .card img {
+    height: 60%;
+    border-radius: 10%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
