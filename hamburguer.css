@@ -11,7 +11,32 @@
  }
  
  body {
-    font-family: Roboto
+    font-family: Arial, sans-serif;
+    background-image: url('./src/tela\ de\ fundo.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    color: #fff;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.mission {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente preto */
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.highlight {
+    font-weight: bold;
+    color: #ea682c;
 }
 
 a {
